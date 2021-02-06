@@ -1,3 +1,5 @@
+![.github/workflows/main.yaml](https://github.com/preyan/mBasket/workflows/.github/workflows/main.yaml/badge.svg)
+
 # mBasket
 
 A simple shopping basket app to keep track of your monthly spends.
