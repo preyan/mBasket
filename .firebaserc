@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cloud-apps-preyan": {
+      "hosting": {
+        "mBasket": [
+          "cloud-apps-preyan"
+        ]
+      }
+    }
+  }
+}
