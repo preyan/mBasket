@@ -1,9 +1,9 @@
 {
   "projects": {
-    "default": "mbasket-b7254"
+    "default": "mbasket"
   },
   "targets": {
-    "mbasket-b7254": {
+    "mbasket": {
       "hosting": {
         "app": [
           "mbasket"
