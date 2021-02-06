@@ -1,4 +1,4 @@
-![.github/workflows/main.yaml](https://github.com/preyan/mBasket/workflows/.github/workflows/main.yaml/badge.svg)
+![Build](https://github.com/preyan/mBasket/workflows/.github/workflows/main.yaml/badge.svg)
 
 # mBasket
 
