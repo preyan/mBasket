@@ -1,25 +1,21 @@
-[debug] [2021-02-06T16:06:39.498Z] ----------------------------------------------------------------------
-[debug] [2021-02-06T16:06:39.500Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:mbasket
-[debug] [2021-02-06T16:06:39.501Z] CLI Version:   8.12.1
-[debug] [2021-02-06T16:06:39.501Z] Platform:      win32
-[debug] [2021-02-06T16:06:39.501Z] Node Version:  v14.15.4
-[debug] [2021-02-06T16:06:39.501Z] Time:          Sat Feb 06 2021 21:36:39 GMT+0530 (India Standard Time)
-[debug] [2021-02-06T16:06:39.502Z] ----------------------------------------------------------------------
-[debug] [2021-02-06T16:06:39.502Z] 
-[debug] [2021-02-06T16:06:39.507Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-02-06T16:06:39.508Z] > authorizing via signed-in user
-[debug] [2021-02-06T16:06:39.508Z] [iam] checking project mbasket-b7254 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2021-02-06T16:06:39.510Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2021-02-06T16:06:39.510Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-02-06T16:06:39.872Z] <<< HTTP RESPONSE 200 {"date":"Sat, 06 Feb 2021 16:06:40 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-02-06T16:06:39.909Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mbasket-b7254:testIamPermissions  
+[debug] [2021-02-06T16:12:28.189Z] ----------------------------------------------------------------------
+[debug] [2021-02-06T16:12:28.190Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:mbasket
+[debug] [2021-02-06T16:12:28.191Z] CLI Version:   8.12.1
+[debug] [2021-02-06T16:12:28.191Z] Platform:      win32
+[debug] [2021-02-06T16:12:28.191Z] Node Version:  v14.15.4
+[debug] [2021-02-06T16:12:28.191Z] Time:          Sat Feb 06 2021 21:42:28 GMT+0530 (India Standard Time)
+[debug] [2021-02-06T16:12:28.192Z] ----------------------------------------------------------------------
+[debug] [2021-02-06T16:12:28.194Z] 
+[debug] [2021-02-06T16:12:28.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-06T16:12:28.200Z] > authorizing via signed-in user
+[debug] [2021-02-06T16:12:28.201Z] [iam] checking project mbasket-b7254 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-02-06T16:12:28.203Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mbasket-b7254:testIamPermissions  
  {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2021-02-06T16:06:41.383Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 06 Feb 2021 16:06:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1195","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-02-06T16:06:41.387Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mbasket-b7254  
+[debug] [2021-02-06T16:12:29.769Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 06 Feb 2021 16:12:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1170","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-06T16:12:29.770Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mbasket-b7254  
  
-[debug] [2021-02-06T16:06:41.859Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 06 Feb 2021 16:06:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-02-06T16:06:41.861Z] [WARNING] Unable to fetch default resources. Falling back to project id (mbasket-b7254)
+[debug] [2021-02-06T16:12:30.315Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 06 Feb 2021 16:12:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-06T16:12:30.317Z] [WARNING] Unable to fetch default resources. Falling back to project id (mbasket-b7254)
 [info] 
 [info] === Deploying to 'mbasket-b7254'...
 [info] 
@@ -28,7 +24,7 @@
 [info] +  Deploy complete! 
 [info] 
 [info] Project Console: https://console.firebase.google.com/project/mbasket-b7254/overview
-[debug] [2021-02-06T16:06:41.869Z] TypeError: Cannot read property 'deploys' of undefined
+[debug] [2021-02-06T16:12:30.323Z] TypeError: Cannot read property 'deploys' of undefined
     at C:\ProgramData\nvm\v14.15.4\node_modules\firebase-tools\lib\deploy\index.js:85:36
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
 [error] 
