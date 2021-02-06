@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "mbasket-b7254"
+  },
+  "targets": {
+    "mbasket-b7254": {
+      "hosting": {
+        "app": [
+          "mbasket"
+        ]
+      }
+    }
   }
 }
