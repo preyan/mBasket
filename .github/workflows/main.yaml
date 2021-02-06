@@ -14,24 +14,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - name: Use Node ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install Dependencies
+      - name: npm ci
         run: npm ci
-      - name: Linting
-        run: ng lint
-      - name: Testing
-        run: npm test
-      - name: Run Build
+      - name: npm run build
         run: npm run build
+      - name: npm run build --prod
+        run: npm run build --prod
 
